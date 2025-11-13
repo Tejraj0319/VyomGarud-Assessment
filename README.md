@@ -48,15 +48,11 @@ cd vyomgarud-landing
 2.Install dependencies**
 bash
 npm install
-# or
-yarn install
 
 
 3. Run the project
 
 npm run dev
-# or
-yarn dev
 
 
 4. Open in browse
@@ -73,8 +69,11 @@ Design Choices
 Screenshots
 
 *Add screenshots or GIFs here to showcase your landing page*
-![Hero Section](./screenshots/hero.png)
-![Products Section](./screenshots/products.png)
+![Hero Section](./public/hero.JPG)
+![About Section](./public/hero.JPG)
+!Capabilities Section](./public/capabilities.JPG)
+![Footer Section](./public/footer.JPG)
+![Highlights Section](./public/highlights.JPG)
 
 
 Deployment
