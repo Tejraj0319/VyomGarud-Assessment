@@ -78,4 +78,4 @@ Screenshots
 
 
 Deployment
-live demo link: [https://your-demo-link.com](https://your-demo-link.com)
+live demo link: [https://vyomgarud-assessment.netlify.app/](https://vyomgarud-assessment.netlify.app/).
