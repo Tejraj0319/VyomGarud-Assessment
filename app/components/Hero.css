@@ -1,0 +1,33 @@
+/* Hero.css */
+
+.hero-text .letter {
+  display: inline-block;
+  opacity: 0; /* start hidden */
+}
+
+/* Instant fade-in letters */
+.hero-text .letter.instant {
+  animation: fadeInInstant 0.1s forwards; /* quick appearance */
+}
+
+/* Flickering letters */
+.hero-text .letter.flicker {
+  animation: flickerAnim 0.8s forwards;
+}
+
+@keyframes fadeInInstant {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes flickerAnim {
+  0%   { opacity: 0; }
+  10%  { opacity: 1; }
+  20%  { opacity: 0.2; }
+  30%  { opacity: 1; }
+  40%  { opacity: 0.4; }
+  50%  { opacity: 1; }
+  60%  { opacity: 0.5; }
+  70%  { opacity: 1; }
+  100% { opacity: 1; }
+}
