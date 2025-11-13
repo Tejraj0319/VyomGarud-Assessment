@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+VyomGarud Landing Page
 
-## Getting Started
+A modern, responsive landing page for VyomGarud, a UAV / drone systems company with a military-grade, professional identity. The page is designed to be bold, clean, and persuasive, highlighting the company’s capabilities and products.
 
-First, run the development server:
+Features
 
-```bash
+* Hero section with company name, tagline, CTA, and bold visuals
+* About section summarizing VyomGarud’s mission
+* Capabilities / Products section with 3–4 cards
+* Highlights section with 3 key features
+* Contact / Footer section with simple form and links
+* Responsive design for mobile, tablet, and desktop
+* Subtle animations using CSS / Framer Motion
+
+
+
+Tech Stack
+
+* **Framework:** React.js / Next.js
+* **Styling:** Tailwind CSS
+* **Animations:** Framer Motion (optional)
+* **Fonts:** Poppins, Inter, or Montserrat
+
+
+
+Project Structure
+
+
+vyomgarud-landing/
+├─ public/           
+├─ src/
+│  ├─ components/    
+│  ├─ pages/         
+│  ├─ styles/        
+├─ package.json
+├─ tailwind.config.js
+└─ README.md
+
+
+Setup & Installation
+
+1.Clone the repository
+
+git clone <repository-link>
+cd vyomgarud-landing
+
+
+2.Install dependencies**
+bash
+npm install
+# or
+yarn install
+
+
+3. Run the project
+
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. Open in browse
+   Visit http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+Design Choices
 
-To learn more about Next.js, take a look at the following resources:
+* Dark theme: Charcoal background with white text and orange accents (#ff7b00)
+* Fonts: Poppins for headings, Inter for body text
+* Aesthetic*: Modern, slightly military/futuristic, clean layout
+* Animations: Subtle fade-ins and motion on scroll for hero and cards
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+*Add screenshots or GIFs here to showcase your landing page*
+![Hero Section](./screenshots/hero.png)
+![Products Section](./screenshots/products.png)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deployment
+live demo link: [https://your-demo-link.com](https://your-demo-link.com)
