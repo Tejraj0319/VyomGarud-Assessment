@@ -70,10 +70,11 @@ Screenshots
 
 *Add screenshots or GIFs here to showcase your landing page*
 ![Hero Section](./public/screenshots/hero.JPG)
-![About Section](./public/screenshots/hero.JPG)
+![About Section](./public/screenshots/about.JPG)
 ![Capabilities Section](./public/screenshots/capabilities.JPG)
-![Footer Section](./public/screenshots/footer.JPG)
 ![Highlights Section](./public/screenshots/highlights.JPG)
+![Footer Section](./public/screenshots/footer.JPG)
+
 
 
 Deployment
